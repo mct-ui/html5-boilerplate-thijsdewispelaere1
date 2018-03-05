@@ -1,5 +1,6 @@
 body {
-  background: Khaki;
+  max-width: 42em;
+  margin: 0 auto;
 }
 
 /*
@@ -38,10 +39,11 @@ html {
       ---
       Default markup for images to make them responsive
   */
-  img {
-    max-width: 100%;
-    vertical-align: top;
-  }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
 }
 
 /*
