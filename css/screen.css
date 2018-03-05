@@ -104,9 +104,22 @@ figcaption {
   color: Grey;
 }
 
-hr {}
+hr {
+  border: 0;
+  height: 1px;
+  background: LightGrey;
+  margin: 0 0 21px;
+}
 
 a {}
+
+ul, ol {
+  padding-left: 24px;
+}
+
+li ul, li ol {
+  margin-bottom: 0;
+}
 
 a:hover, a:focus {}
 
